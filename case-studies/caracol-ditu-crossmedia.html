@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="DITU Funnel & Cross-Media Audience Hub — Case study by Laura Piñeros" />
+  <title>DITU Funnel & Cross-Media Audience Hub — Laura Piñeros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="case-study.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="../index.html">Laura Piñeros</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#case-studies">Case Studies</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-secondary" href="../index.html">← Portfolio</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Caracol TV · 2026 · Data Scientist / Data Analyst</p>
+      <h1>DITU Funnel & Cross-Media Audience Hub</h1>
+      <p class="lead">Audience and content decisions were fragmented across TV, streaming, YouTube, portals, and radio — with no shared KPI layer.</p>
+      <div class="meta-row"><span class="badge">Power BI</span><span class="badge">Python</span><span class="badge">SQL</span><span class="badge">Snowflake</span><span class="badge">AWS</span></div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="../notebooks/01_caracol_ditu_crossmedia.ipynb" download="01_caracol_ditu_crossmedia.ipynb">Download Notebook (.ipynb)</a>
+        <a class="btn btn-secondary" href="../data/audience_consumption_random.csv" download>Download dataset (.csv)</a>
+        <a class="btn btn-secondary" href="../index.html#case-studies">All case studies</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-3"><div class="metric"><span>Avg daily reach</span><strong>4.2M</strong></div><div class="metric up"><span>DITU signup rate</span><strong>38%</strong></div><div class="metric"><span>High-value audience</span><strong>22%</strong></div></div>
+    </section>
+
+    <section class="section">
+      <article class="card">
+        <h2>Business problem</h2>
+        <p>Audience and content decisions were fragmented across TV, streaming, YouTube, portals, and radio — with no shared KPI layer.</p>
+      </article>
+      <article class="card">
+        <h2>Approach</h2>
+        <p>Synthetic Cross-Media panel: normalize daily reach/engagement by channel, build a funnel for DITU, score audiences, and forecast ad investment.</p>
+        <ol class="steps" style="margin-top:0.85rem">
+          <li>Generate reproducible synthetic datasets (seeded).</li>
+          <li>Clean / model in the companion Jupyter notebook.</li>
+          <li>Translate outputs into executive metrics on this page.</li>
+        </ol>
+      </article>
+      <article class="card">
+        <h2>Result</h2>
+        <p>Unified Cross-Media KPIs and audience scoring for campaign targeting.</p>
+      </article>
+      <article class="card">
+        <h2>Reproducible analysis</h2>
+        <p>
+          Click <strong>Download Notebook</strong> to get <code>01_caracol_ditu_crossmedia.ipynb</code>
+          with random audience consumption logic. Open it in Jupyter / VS Code / Colab and Run All. Also download the ready-made CSV of 25,000 consumption events if you only need the data.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    © Laura Cecilia Piñeros — Synthetic portfolio case study
+  </footer>
+</body>
+</html>

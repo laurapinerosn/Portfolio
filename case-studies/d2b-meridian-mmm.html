@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Meridian MMM & Digital Performance Stack — Case study by Laura Piñeros" />
+  <title>Meridian MMM & Digital Performance Stack — Laura Piñeros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="case-study.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="../index.html">Laura Piñeros</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#case-studies">Case Studies</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-secondary" href="../index.html">← Portfolio</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">D2B · 2025 · Data Scientist & Innovation</p>
+      <h1>Meridian MMM & Digital Performance Stack</h1>
+      <p class="lead">Marketing lacked a clear view of channel contribution, ROI, and forward-looking traffic for leads and paid media.</p>
+      <div class="meta-row"><span class="badge">Python</span><span class="badge">Meridian MMM</span><span class="badge">GA4</span><span class="badge">BigQuery</span><span class="badge">Looker Studio</span></div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="../notebooks/02_d2b_meridian_mmm.ipynb" download="02_d2b_meridian_mmm.ipynb">Download Notebook (.ipynb)</a>
+        
+        <a class="btn btn-secondary" href="../index.html#case-studies">All case studies</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-3"><div class="metric up"><span>Blended ROI</span><strong>3.8x</strong></div><div class="metric"><span>Holdout MAPE</span><strong>15.9%</strong></div><div class="metric"><span>Avg weekly leads</span><strong>4.1k</strong></div></div>
+    </section>
+
+    <section class="section">
+      <article class="card">
+        <h2>Business problem</h2>
+        <p>Marketing lacked a clear view of channel contribution, ROI, and forward-looking traffic for leads and paid media.</p>
+      </article>
+      <article class="card">
+        <h2>Approach</h2>
+        <p>Synthetic spend/response series by channel; estimate contribution shares, ROI, and a simple SARIMAX-style forecast proxy for leads.</p>
+        <ol class="steps" style="margin-top:0.85rem">
+          <li>Generate reproducible synthetic datasets (seeded).</li>
+          <li>Clean / model in the companion Jupyter notebook.</li>
+          <li>Translate outputs into executive metrics on this page.</li>
+        </ol>
+      </article>
+      <article class="card">
+        <h2>Result</h2>
+        <p>Channel ROI clarified; traffic forecasted with a lightweight model stack.</p>
+      </article>
+      <article class="card">
+        <h2>Reproducible analysis</h2>
+        <p>
+          Click <strong>Download Notebook</strong> to get <code>02_d2b_meridian_mmm.ipynb</code>
+          with random audience consumption logic. Open it in Jupyter / VS Code / Colab and Run All.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    © Laura Cecilia Piñeros — Synthetic portfolio case study
+  </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ScoutMetrics — Football Scouting Analytics — Case study by Laura Piñeros" />
+  <title>ScoutMetrics — Football Scouting Analytics — Laura Piñeros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="case-study.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="../index.html">Laura Piñeros</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#case-studies">Case Studies</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-secondary" href="../index.html">← Portfolio</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">ScoutMetrics (Personal) · 2026 · Data Scientist · Sports Analytics</p>
+      <h1>ScoutMetrics — Football Scouting Analytics</h1>
+      <p class="lead">Tournament scouting needed a reproducible pipeline to turn match reports into comparable team/player metrics (phases of play, line breaks, physical load).</p>
+      <div class="meta-row"><span class="badge">Python</span><span class="badge">pandas</span><span class="badge">Scouting metrics</span><span class="badge">Jupyter</span></div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="../notebooks/05_scoutmetrics_football.ipynb" download="05_scoutmetrics_football.ipynb">Download Notebook (.ipynb)</a>
+        <a class="btn btn-secondary" href="../data/scoutmetrics_player_scores.csv" download>Download scouting board (.csv)</a>
+        <a class="btn btn-secondary" href="../index.html#case-studies">All case studies</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-3"><div class="metric"><span>Matches modeled</span><strong>48</strong></div><div class="metric up"><span>Players scored</span><strong>132</strong></div><div class="metric"><span>Core data layers</span><strong>4</strong></div></div>
+    </section>
+
+    <section class="section">
+      <article class="card">
+        <h2>Business problem</h2>
+        <p>Tournament scouting needed a reproducible pipeline to turn match reports into comparable team/player metrics (phases of play, line breaks, physical load).</p>
+      </article>
+      <article class="card">
+        <h2>Approach</h2>
+        <p>Inspired by World Cup 2026 moneyball-style master files: normalize team KPIs, phases of play, player line-break & physical tables, then score scouting profiles.</p>
+        <ol class="steps" style="margin-top:0.85rem">
+          <li>Generate reproducible synthetic datasets (seeded).</li>
+          <li>Clean / model in the companion Jupyter notebook.</li>
+          <li>Translate outputs into executive metrics on this page.</li>
+        </ol>
+      </article>
+      <article class="card">
+        <h2>Result</h2>
+        <p>A portable scouting analytics workflow: KPI panels, player rankings, and exportable tables for coaching / recruitment conversations.</p>
+      </article>
+      <article class="card">
+        <h2>Reproducible analysis</h2>
+        <p>
+          Click <strong>Download Notebook</strong> to get <code>05_scoutmetrics_football.ipynb</code>
+          with seeded tournament tables (matches, team KPIs, phases, line breaks, physical). Open it in Jupyter / VS Code / Colab and Run All. Also download the ready-made CSV of player scouting scores if you only need the board.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    © Laura Cecilia Piñeros — Synthetic portfolio case study
+  </footer>
+</body>
+</html>

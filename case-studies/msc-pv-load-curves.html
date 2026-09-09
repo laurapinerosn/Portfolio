@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="PV Load-Curve Forecasting — Case study by Laura Piñeros" />
+  <title>PV Load-Curve Forecasting — Laura Piñeros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="case-study.css" />
+</head>
+<body>
+  <header class="site-nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="../index.html">Laura Piñeros</a>
+      <ul class="nav-links">
+        <li><a href="../index.html#case-studies">Case Studies</a></li>
+        <li><a href="../index.html#experience">Experience</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+      <a class="btn btn-secondary" href="../index.html">← Portfolio</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Research · 2022 · Master's thesis</p>
+      <h1>PV Load-Curve Forecasting</h1>
+      <p class="lead">PV energy customers needed segmentation grounded in predicted consumption patterns, not only static attributes.</p>
+      <div class="meta-row"><span class="badge">Python</span><span class="badge">Forecasting</span><span class="badge">Segmentation</span></div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="../notebooks/04_msc_pv_load_curves.ipynb" download="04_msc_pv_load_curves.ipynb">Download Notebook (.ipynb)</a>
+        
+        <a class="btn btn-secondary" href="../index.html#case-studies">All case studies</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid-3"><div class="metric"><span>Segments</span><strong>3</strong></div><div class="metric up"><span>Baseline MAPE</span><strong>9.4%</strong></div><div class="metric"><span>Customers modeled</span><strong>240</strong></div></div>
+    </section>
+
+    <section class="section">
+      <article class="card">
+        <h2>Business problem</h2>
+        <p>PV energy customers needed segmentation grounded in predicted consumption patterns, not only static attributes.</p>
+      </article>
+      <article class="card">
+        <h2>Approach</h2>
+        <p>Synthetic hourly load curves; cluster customers and evaluate a simple forecast baseline (MAPE).</p>
+        <ol class="steps" style="margin-top:0.85rem">
+          <li>Generate reproducible synthetic datasets (seeded).</li>
+          <li>Clean / model in the companion Jupyter notebook.</li>
+          <li>Translate outputs into executive metrics on this page.</li>
+        </ol>
+      </article>
+      <article class="card">
+        <h2>Result</h2>
+        <p>Forecast-driven segments for operational and commercial decisions.</p>
+      </article>
+      <article class="card">
+        <h2>Reproducible analysis</h2>
+        <p>
+          Click <strong>Download Notebook</strong> to get <code>04_msc_pv_load_curves.ipynb</code>
+          with random audience consumption logic. Open it in Jupyter / VS Code / Colab and Run All.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    © Laura Cecilia Piñeros — Synthetic portfolio case study
+  </footer>
+</body>
+</html>

@@ -1,0 +1,324 @@
+{
+  "profile": {
+    "name": "Laura",
+    "full_name": "Laura Cecilia Piñeros",
+    "title": "Data Scientist",
+    "subtitle": "Marketing Analytics · Machine Learning · Sports Analytics",
+    "location": "Bogotá D.C., Colombia · Hybrid / Remote LATAM",
+    "email": "laumath140@gmail.com",
+    "linkedin": "",
+    "github": "",
+    "resume": "assets/Laura_Pineros_Resume.pdf",
+    "updated_at": "2026-09-08"
+  },
+  "heroMetrics": [
+    {
+      "label": "Forecast Accuracy",
+      "sublabel": "MAPE",
+      "value": "15.9%",
+      "positive": false
+    },
+    {
+      "label": "MMM ROI",
+      "sublabel": "Blended return",
+      "value": "3.8x",
+      "positive": true
+    },
+    {
+      "label": "Audience",
+      "sublabel": "Cross-media reach",
+      "value": "4.2M",
+      "positive": false
+    },
+    {
+      "label": "Forecast Revenue",
+      "sublabel": "WoW change",
+      "value": "+12%",
+      "positive": true
+    }
+  ],
+  "kpis": [
+    {
+      "value": "6+",
+      "label": "Years solving data problems"
+    },
+    {
+      "value": "5",
+      "label": "Industries"
+    },
+    {
+      "value": "15+",
+      "label": "Executive Dashboards"
+    },
+    {
+      "value": "12+",
+      "label": "Predictive Models"
+    },
+    {
+      "value": "3",
+      "label": "Countries"
+    }
+  ],
+  "capabilities": [
+    {
+      "title": "Forecasting",
+      "icon": "forecasting"
+    },
+    {
+      "title": "Marketing Mix Modeling",
+      "icon": "mmm"
+    },
+    {
+      "title": "Machine Learning",
+      "icon": "ml"
+    },
+    {
+      "title": "Streaming Analytics",
+      "icon": "streaming"
+    },
+    {
+      "title": "Business Intelligence",
+      "icon": "bi"
+    },
+    {
+      "title": "Customer Segmentation",
+      "icon": "segment"
+    },
+    {
+      "title": "Marketing Analytics",
+      "icon": "marketing"
+    },
+    {
+      "title": "Cross Media Analytics",
+      "icon": "crossmedia"
+    },
+    {
+      "title": "Sports Analytics",
+      "icon": "sports"
+    }
+  ],
+  "skills": [
+    {
+      "group": "Programming",
+      "items": [
+        "Python",
+        "SQL",
+        "R"
+      ]
+    },
+    {
+      "group": "Cloud",
+      "items": [
+        "AWS",
+        "Snowflake",
+        "Azure"
+      ]
+    },
+    {
+      "group": "Analytics",
+      "items": [
+        "GA4",
+        "BigQuery",
+        "Power BI",
+        "Looker"
+      ]
+    },
+    {
+      "group": "Machine Learning",
+      "items": [
+        "SARIMAX",
+        "VAR",
+        "MMM",
+        "Forecasting",
+        "Clustering",
+        "Scouting metrics"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "caracol-ditu-crossmedia",
+      "title": "DITU Funnel & Cross-Media Audience Hub",
+      "year": 2026,
+      "company": "Caracol TV",
+      "role": "Data Scientist / Data Analyst",
+      "stack": [
+        "Power BI",
+        "Python",
+        "SQL",
+        "Snowflake",
+        "AWS"
+      ],
+      "problem": "Audience and content decisions were fragmented across TV, streaming, YouTube, portals, and radio — with no shared KPI layer.",
+      "impact": [
+        "Unified Cross-Media KPIs and audience scoring for campaign targeting."
+      ],
+      "page": "case-studies/caracol-ditu-crossmedia.html",
+      "notebook": "notebooks/01_caracol_ditu_crossmedia.ipynb"
+    },
+    {
+      "id": "d2b-meridian-mmm",
+      "title": "Meridian MMM & Digital Performance Stack",
+      "year": 2025,
+      "company": "D2B",
+      "role": "Data Scientist & Innovation",
+      "stack": [
+        "Python",
+        "Meridian MMM",
+        "GA4",
+        "BigQuery",
+        "Looker Studio"
+      ],
+      "problem": "Marketing lacked a clear view of channel contribution, ROI, and forward-looking traffic for leads and paid media.",
+      "impact": [
+        "Channel ROI clarified with Meridian MMM; traffic forecasted with VAR & SARIMAX."
+      ],
+      "page": "case-studies/d2b-meridian-mmm.html",
+      "notebook": "notebooks/02_d2b_meridian_mmm.ipynb"
+    },
+    {
+      "id": "nae-claro-banking",
+      "title": "Banking Analytics & Campaign ETL",
+      "year": 2024,
+      "company": "NAE Colombia",
+      "role": "Data Scientist",
+      "stack": [
+        "Python",
+        "R",
+        "SQL",
+        "Azure Databricks",
+        "Pentaho"
+      ],
+      "problem": "Banking partners needed reliable customer profiles and repeatable data flows for multi-channel campaign execution.",
+      "impact": [
+        "ETL and econometric models enabled SMS, WhatsApp, and email campaigns at scale."
+      ],
+      "page": "case-studies/nae-claro-banking.html",
+      "notebook": "notebooks/03_nae_claro_banking.ipynb"
+    },
+    {
+      "id": "msc-pv-load-curves",
+      "title": "PV Load-Curve Forecasting",
+      "year": 2022,
+      "company": "Research",
+      "role": "Master's thesis",
+      "stack": [
+        "Python",
+        "Forecasting",
+        "Segmentation"
+      ],
+      "problem": "PV energy customers needed segmentation grounded in predicted consumption patterns, not only static attributes.",
+      "impact": [
+        "Forecast-driven segments for operational and commercial decisions."
+      ],
+      "page": "case-studies/msc-pv-load-curves.html",
+      "notebook": "notebooks/04_msc_pv_load_curves.ipynb"
+    },
+    {
+      "id": "scoutmetrics-football",
+      "title": "ScoutMetrics — Football Scouting Analytics",
+      "year": 2026,
+      "company": "ScoutMetrics (Personal)",
+      "role": "Data Scientist · Sports Analytics",
+      "stack": [
+        "Python",
+        "pandas",
+        "Scouting metrics",
+        "Jupyter"
+      ],
+      "problem": "Tournament scouting needed a reproducible pipeline to turn match reports into comparable team and player metrics across phases, line breaks, and physical load.",
+      "impact": [
+        "Built a multi-table scouting workflow with KPI panels and a ranked player board."
+      ],
+      "page": "case-studies/scoutmetrics-football.html",
+      "notebook": "notebooks/05_scoutmetrics_football.ipynb"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Caracol TV",
+      "logo": "CT",
+      "role": "Data Scientist / Data Analyst",
+      "period": "Feb 2026 — Jul 2026",
+      "location": "Colombia · Hybrid",
+      "highlights": [
+        "Digital funnel analysis for DITU streaming platform",
+        "Cross-Media KPI hub across TV, streaming, YouTube, portals, radio",
+        "Audience scoring and ad-investment forecasts with macro variables"
+      ],
+      "stack": [
+        "Power BI",
+        "Python",
+        "SQL",
+        "Snowflake",
+        "AWS"
+      ]
+    },
+    {
+      "company": "D2B",
+      "logo": "D2",
+      "role": "Data Scientist & Innovation",
+      "period": "Mar 2025 — Nov 2025",
+      "location": "Chile · Remote",
+      "highlights": [
+        "Meridian Marketing Mix Modeling for channel ROI",
+        "VAR / SARIMAX forecasting for digital traffic",
+        "Looker Studio dashboards for CPL, CTR, leads, and reach"
+      ],
+      "stack": [
+        "Python",
+        "GA4",
+        "BigQuery",
+        "Looker Studio",
+        "MMM"
+      ]
+    },
+    {
+      "company": "NAE Colombia",
+      "logo": "NA",
+      "role": "Data Scientist",
+      "period": "Feb 2023 — Feb 2025",
+      "location": "Bogotá · Claro client",
+      "highlights": [
+        "Financial analysis and customer profiling for banking partners",
+        "ETL with Python and Pentaho; analytics on Azure Databricks",
+        "SQL-driven audiences for SMS, WhatsApp, and email campaigns"
+      ],
+      "stack": [
+        "Python",
+        "R",
+        "SQL",
+        "Azure",
+        "Pentaho"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Complutense University of Madrid",
+      "degree": "Master's Degree in Big Data & Data Science",
+      "year": "2022",
+      "detail": "Thesis: Load Curve Forecasting for Customer Segmentation in Photovoltaic Power Plants."
+    },
+    {
+      "school": "Francisco José de Caldas District University",
+      "degree": "Bachelor's Degree in Mathematics",
+      "year": "2021",
+      "detail": "Undergraduate thesis: On the Focal Set in Affine Differential Geometry."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Cloud Digital Leader",
+      "issuer": "Google Cloud"
+    },
+    {
+      "name": "Google Analytics Certification",
+      "issuer": "GA4"
+    }
+  ],
+  "meta": {
+    "note": "Hero dashboard metrics are illustrative. Experience sourced from CV.",
+    "generator": "generate_portfolio_data.py"
+  }
+}

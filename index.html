@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Laura Piñeros — Data Scientist specializing in Marketing Analytics, Machine Learning, and Forecasting."
+    />
+    <meta name="author" content="Laura Cecilia Piñeros" />
+    <title>Laura Piñeros — Data Scientist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Sora:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-nav" id="top">
+      <div class="wrap nav-inner">
+        <a class="brand" href="#top">
+          <span class="brand-name">Laura Piñeros</span>
+          <span class="brand-focus" aria-label="Focus areas">
+            <span>Data Scientist</span>
+            <span class="dot" aria-hidden="true"></span>
+            <span>Marketing Analytics</span>
+            <span class="dot" aria-hidden="true"></span>
+            <span>Machine Learning</span>
+            <span class="dot" aria-hidden="true"></span>
+            <span>Forecasting</span>
+          </span>
+        </a>
+        <nav aria-label="Primary">
+          <ul class="nav-links">
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="nav-cta" href="assets/Laura_Pineros_Resume.pdf" download>Resume</a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Data Scientist · Bogotá / Remote LATAM</p>
+            <h1 id="hero-heading">
+              Building decision systems with data, models, and clarity.
+            </h1>
+            <p class="hero-lead">
+              I design forecasting, marketing mix, and analytics products that executives
+              trust — from streaming audiences to paid media ROI.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#case-studies">View Case Studies</a>
+              <a class="btn btn-secondary" href="assets/Laura_Pineros_Resume.pdf" download
+                >Download Resume</a
+              >
+            </div>
+          </div>
+
+          <aside class="bi-card" aria-label="Sample executive dashboard">
+            <div class="bi-card-head">
+              <div>
+                <p class="bi-kicker">Executive overview</p>
+                <h2 class="bi-title">Growth &amp; Forecast Desk</h2>
+              </div>
+              <span class="bi-pill">Live sample</span>
+            </div>
+            <div class="bi-metrics" id="hero-metrics">
+              <!-- Filled by app.js -->
+            </div>
+            <div class="bi-footer">
+              <span class="mono">Updated weekly · Illustrative metrics</span>
+              <span class="bi-status"><span class="status-dot"></span> Healthy</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- KPI strip -->
+      <section class="kpi-section" aria-label="Key metrics">
+        <div class="wrap">
+          <div class="kpi-grid" id="kpi-grid"></div>
+        </div>
+      </section>
+
+      <!-- Case Studies -->
+      <section class="section" id="case-studies" aria-labelledby="cases-heading">
+        <div class="wrap">
+          <header class="section-head">
+            <div>
+              <p class="eyebrow">Portfolio</p>
+              <h2 id="cases-heading">Featured Case Studies</h2>
+            </div>
+            <p class="section-desc">
+              Selected engagements across media, marketing science, and banking analytics.
+            </p>
+          </header>
+          <div class="case-grid" id="case-grid"></div>
+        </div>
+      </section>
+
+      <!-- What I Do -->
+      <section class="section section-alt" id="what-i-do" aria-labelledby="what-heading">
+        <div class="wrap">
+          <header class="section-head">
+            <div>
+              <p class="eyebrow">Capabilities</p>
+              <h2 id="what-heading">What I Do</h2>
+            </div>
+            <p class="section-desc">
+              Focused domains where models meet business decisions.
+            </p>
+          </header>
+          <div class="capability-grid" id="capability-grid"></div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section" id="experience" aria-labelledby="exp-heading">
+        <div class="wrap">
+          <header class="section-head">
+            <div>
+              <p class="eyebrow">Career</p>
+              <h2 id="exp-heading">Experience</h2>
+            </div>
+            <p class="section-desc">
+              A visual path from banking analytics to media forecasting and MMM.
+            </p>
+          </header>
+          <ol class="timeline" id="experience-timeline"></ol>
+        </div>
+      </section>
+
+      <!-- Research -->
+      <section class="section section-alt" id="research" aria-labelledby="research-heading">
+        <div class="wrap">
+          <header class="section-head">
+            <div>
+              <p class="eyebrow">Academic</p>
+              <h2 id="research-heading">Research</h2>
+            </div>
+            <p class="section-desc">
+              Formal training that underpins forecasting and analytical rigor.
+            </p>
+          </header>
+          <div class="research-grid">
+            <div id="education-list" class="research-list"></div>
+            <div class="research-side">
+              <h3>Certifications</h3>
+              <div id="certifications-list" class="cert-list"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills" aria-labelledby="skills-heading">
+        <div class="wrap">
+          <header class="section-head">
+            <div>
+              <p class="eyebrow">Toolkit</p>
+              <h2 id="skills-heading">Skills</h2>
+            </div>
+            <p class="section-desc">
+              Modern stack for analytics engineering, ML, and executive BI.
+            </p>
+          </header>
+          <div class="skills-groups" id="skills-groups"></div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact" id="contact" aria-labelledby="contact-heading">
+        <div class="wrap">
+          <div class="contact-panel reveal">
+            <h2 id="contact-heading">Let’s build better decisions with data.</h2>
+            <div class="contact-actions" id="contact-actions">
+              <a class="btn btn-primary" href="mailto:laumath140@gmail.com">Email</a>
+              <a
+                class="btn btn-secondary"
+                data-href="profile.linkedin"
+                href="#"
+                target="_blank"
+                rel="noopener"
+                hidden
+                >LinkedIn</a
+              >
+              <a
+                class="btn btn-secondary"
+                data-href="profile.github"
+                href="#"
+                target="_blank"
+                rel="noopener"
+                hidden
+                >GitHub</a
+              >
+              <a class="btn btn-secondary" href="assets/Laura_Pineros_Resume.pdf" download
+                >Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <span>© <span data-bind="profile.full_name">Laura Cecilia Piñeros</span></span>
+        <span class="mono footnote" id="data-note"></span>
+      </div>
+    </footer>
+
+    <script src="assets/portfolio-data.js"></script>
+    <script src="assets/case-study-map.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
