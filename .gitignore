@@ -17,3 +17,8 @@ Thumbs.db
 # Local / temp
 *.log
 .tmp/
+
+# Next.js site
+web/node_modules/
+web/.next/
+web/out/

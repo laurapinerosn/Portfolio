@@ -18,6 +18,10 @@ NB_DIR = ROOT / "notebooks"
 CASE_DIR = ROOT / "case-studies"
 ASSETS = ROOT / "assets"
 
+# Public GitHub repo — file links in case-study HTML point here
+GITHUB_REPO = "https://github.com/laurapinerosn/Portfolio"
+GITHUB_BLOB = f"{GITHUB_REPO}/blob/main"
+
 
 CASES = [
     {
@@ -121,9 +125,9 @@ CASES = [
         "data_file": "data/scoutmetrics_player_scores.csv",
         "data_label": "scouting board",
         "repro_note": (
-            "with seeded tournament tables (matches, team KPIs, phases, line breaks, physical). "
+            "on GitHub (seeded tournament tables: matches, team KPIs, phases, line breaks, physical). "
             "Open it in Jupyter / VS Code / Colab and Run All. "
-            "Also download the ready-made CSV of player scouting scores if you only need the board."
+            "You can also open the scouting-board CSV from the same repository."
         ),
     },
 ]
@@ -1060,19 +1064,21 @@ def render_case_html(case: dict) -> str:
         f'<span>{m["label"]}</span><strong>{m["value"]}</strong></div>'
         for m in metrics
     )
+    nb_url = f"{GITHUB_BLOB}/notebooks/{case['notebook']}"
     extra_downloads = ""
     if case.get("data_file"):
         data_label = case.get("data_label", "dataset")
+        data_url = f"{GITHUB_BLOB}/{case['data_file']}"
         extra_downloads = (
-            f'<a class="btn btn-secondary" href="../{case["data_file"]}" download>'
-            f"Download {data_label} (.csv)</a>"
+            f'<a class="btn btn-secondary" href="{data_url}" target="_blank" rel="noopener">'
+            f"View {data_label} on GitHub (.csv)</a>"
         )
     repro_note = case.get(
         "repro_note",
         (
-            "with random audience consumption logic. Open it in Jupyter / VS Code / Colab and Run All."
+            "on GitHub. Open the notebook in Jupyter / VS Code / Colab (or GitHub Codespaces) and Run All."
             + (
-                " Also download the ready-made CSV of 25,000 consumption events if you only need the data."
+                " You can also open the ready-made CSV from the same repository if you only need the data."
                 if case.get("data_file")
                 else ""
             )
@@ -1110,7 +1116,7 @@ def render_case_html(case: dict) -> str:
       <p class="lead">{case['problem']}</p>
       <div class="meta-row">{badges}</div>
       <div class="cta-row">
-        <a class="btn btn-primary" href="../notebooks/{case['notebook']}" download="{case['notebook']}">Download Notebook (.ipynb)</a>
+        <a class="btn btn-primary" href="{nb_url}" target="_blank" rel="noopener">View Notebook on GitHub (.ipynb)</a>
         {extra_downloads}
         <a class="btn btn-secondary" href="../index.html#case-studies">All case studies</a>
       </div>
@@ -1141,7 +1147,7 @@ def render_case_html(case: dict) -> str:
       <article class="card">
         <h2>Reproducible analysis</h2>
         <p>
-          Click <strong>Download Notebook</strong> to get <code>{case['notebook']}</code>
+          Click <strong>View Notebook on GitHub</strong> to open <code>{case['notebook']}</code>
           {repro_note}
         </p>
       </article>
